@@ -1,18 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    background-color :white;
+    border-top-style: solid;
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color : purple;
 }
 
 article {
     flex: 2;
     overflow-y: auto;
+    border-top-style: solid;
+    border-top-style: dotted;
 }
 
 aside {
